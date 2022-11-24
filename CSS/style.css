@@ -1,0 +1,15 @@
+body {
+  margin: 20px;
+}
+
+.purple {
+  width: 100px;
+  height: 100px;  
+  background: purple;
+}
+
+.mostaza {
+  width: 100px;
+  height: 100px;  
+  background: yellow;
+}
