@@ -151,3 +151,84 @@ body {
 .header {
   padding-left: 40px;
 }
+
+.btn-main2 {
+  width: 100px;
+  height: 50px;
+  background-color: #7C9F35;
+  color: white;
+  border: none;
+
+}
+
+.btn-main {
+  width: 100px;
+  height: 50px;
+  background-color: #e89217;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  width: 100px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  border: none;
+}
+
+.btn-secondary2 {
+  width: 100px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  border: none;
+}
+
+.btn-main2:hover {
+  width: 105px;
+  height: 55px;
+  background-color: #568100;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-main:hover {
+  width: 105px;
+  height: 55px;
+  background-color: #ca7600;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-secondary:hover {
+  width: 105px;
+  height: 55px;
+  background-color: #4c4c4c;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-secondary2:hover {
+  width: 105px;
+  height: 55px;
+  background-color: #4c4c4c;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-main2:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+}
+
+.btn-main:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+}
+
+.btn-secondary2:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
+}
