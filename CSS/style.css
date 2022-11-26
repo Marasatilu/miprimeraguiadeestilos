@@ -118,6 +118,7 @@ body {
 
 .colors {
   padding: 30px;
+  padding-right: 105px;
   margin: 10px;
   float: left;
   background-color: rgb(254, 248, 239);
@@ -218,17 +219,42 @@ body {
 }
 
 .btn-main2:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
 }
 
 .btn-main:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
 }
 
 .btn-secondary:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
 }
 
 .btn-secondary2:focus {
   box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
+}
+
+.links {
+  padding: 30px;
+  padding-right: 130px;
+  margin: 10px;
+  float: left;
+  background-color: rgb(254, 248, 239);
+  border-radius: 10%;
+}
+
+.enlace:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
+}
+
+.enlace:hover {
+  color: #e89217;
+}
+
+a:link {
+  color:#7C9F35;
+}
+
+a:visited {
+  color:#4c4c4c;
 }
