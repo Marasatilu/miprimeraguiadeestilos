@@ -21,6 +21,7 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
 }
 
 .applegreen {
@@ -32,6 +33,7 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
 }
 
 .darkblue {
@@ -43,6 +45,8 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
+  color: #ffffff;
 }
 
 .blue {
@@ -54,17 +58,20 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
+  color: #ffffff;
 }
 
 .lightergrey {
   width: 100px;
   height: 100px;  
-  background: hsl(0, 0%, 65%);
+  background: #b4b3b3;
   padding-left: 10px;
   padding-top: 10px;
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
 }
 
 .lightgrey {
@@ -76,6 +83,7 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
 }
 
 .grey {
@@ -87,6 +95,8 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
+  color: #ffffff;
 }
 
 .darkgrey {
@@ -98,6 +108,8 @@ h2 {
   margin-left: 10px;
   float: left;
   position: relative;
+  text-align: center;
+  color: #ffffff;
 }
 
 .h1 {
