@@ -89,11 +89,11 @@ h2 {
   line-height : 10px;
 }
 
-.encabezados {
+.headers {
   margin-top: -25px;
 }
 
-.colors {
+.container-colors {
   padding: 30px;
   padding-top: 10px;
   padding-right: 105px;
@@ -112,7 +112,7 @@ h2 {
   position: relative;
 }
 
-.headers {
+.container-headers {
   padding: 30px;
   padding-top: 10px;
   margin: 10px;
@@ -134,84 +134,35 @@ h2 {
   padding-left: 40px;
 }
 
-.btn-main2 {
+.btn {
   width: 100px;
   height: 50px;
-  background-color: #7C9F35;
-  color: white;
-  border: none;
-
-}
-
-.btn-main {
-  width: 100px;
-  height: 50px;
-  background-color: #e89217;
   color: white;
   border: none;
 }
 
-.btn-secondary {
-  width: 100px;
-  height: 50px;
-  background-color: #808080;
-  color: white;
-  border: none;
-}
-
-.btn-secondary2 {
-  width: 100px;
-  height: 50px;
-  background-color: #808080;
-  color: white;
-  border: none;
-}
-
-.btn-main2:hover {
+.darkgreen:hover {
   width: 105px;
   height: 55px;
   background-color: #568100;
-  color: white;
   border-radius: 4px;
 }
 
-.btn-main:hover {
+.darkorange:hover {
   width: 105px;
   height: 55px;
   background-color: #ca7600;
-  color: white;
   border-radius: 4px;
 }
 
-.btn-secondary:hover {
+.greybutton:hover {
   width: 105px;
   height: 55px;
   background-color: #4c4c4c;
-  color: white;
   border-radius: 4px;
 }
 
-.btn-secondary2:hover {
-  width: 105px;
-  height: 55px;
-  background-color: #4c4c4c;
-  color: white;
-  border-radius: 4px;
-}
-
-.btn-main2:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
-}
-
-.btn-main:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
-}
-
-.btn-secondary:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
-}
-
-.btn-secondary2:focus {
+.focused:focus {
   box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
 }
 
@@ -223,10 +174,6 @@ h2 {
   float: left;
   background-color: rgb(254, 248, 239);
   border-radius: 20px;
-}
-
-.enlace:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px blue;;
 }
 
 .enlace:hover {
