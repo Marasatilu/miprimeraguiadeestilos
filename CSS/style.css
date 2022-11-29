@@ -93,10 +93,12 @@ h2 {
   margin-top: -25px;
 }
 
-.container-colors {
+.container-large {
+  width: 90%;
+  height: 30%;
   padding: 30px;
   padding-top: 10px;
-  padding-right: 105px;
+  padding-right: 10px;
   margin: 10px;
   float: left;
   background-color: rgb(254, 248, 239);
@@ -112,7 +114,9 @@ h2 {
   position: relative;
 }
 
-.container-headers {
+.container-medium {
+  width: 80%;
+  height: 40%;
   padding: 30px;
   padding-top: 10px;
   margin: 10px;
@@ -121,10 +125,13 @@ h2 {
   border-radius: 20px;
 }
 
-.button-position {
+.container-small {
+  width: 20%;
+  height: 50%;
   padding: 30px;
   padding-top: 10px;
   margin: 10px;
+  margin-bottom: 30px;
   float: left;
   background-color: rgb(254, 248, 239);
   border-radius: 10%;
@@ -186,4 +193,69 @@ a:link {
 
 a:visited {
   color:#4c4c4c;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  -wekit-appearence: none;
+  -moz-appearance: none;
+  appearance:none;
+  border: 2px solid #7C9F35;
+  margin-bottom: 16px;
+  border-radius: 3px;
+}
+
+
+
+[type="email"]:focus:invalid {
+  box-shadow: 0 0 2px 2px red;
+  outline: 0;
+}  
+
+[type="email"]:focus:valid {
+  box-shadow: 0 0 2px 2px #7C9F35;
+  outline: 0;
+} 
+
+.field-validator { 
+  display: none;
+  } 
+
+[type="email"]:focus:invalid + .field-validator { 
+  display: block;
+  } 
+
+.input-small {
+  max-width: 60px;
+}
+
+.input-medium {
+  max-width: 100px;
+}
+
+.input-big {
+  max-width: 300px;
+}
+
+[type="checkbox"], [type="radio"] {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #7C9F35;
+  background-color: none;
+}
+
+[type="radio"] {
+  border-radius: 100%;
+}
+
+[type="radio"]:checked {
+  background-color: #e89217;
+}
+
+[type="checkbox"]:checked {
+  background-color: #e89217;
 }
