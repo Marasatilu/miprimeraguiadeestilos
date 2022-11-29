@@ -12,10 +12,9 @@ h2 {
   color: #7C9F35;
 }
 
-.orange {
+.color-palette {
   width: 100px;
-  height: 100px;  
-  background: #e89217;
+  height: 100px;
   padding-left: 10px;
   padding-top: 10px;
   margin-left: 10px;
@@ -24,91 +23,39 @@ h2 {
   text-align: center;
 }
 
-.applegreen {
-  width: 100px;
-  height: 100px;  
+.orange {  
+  background: #e89217;
+}
+
+.applegreen {  
   background: #7C9F35;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
 }
 
 .darkblue {
-  width: 100px;
-  height: 100px;  
   background: #0c1b36;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
   color: #ffffff;
 }
 
 .blue {
-  width: 100px;
-  height: 100px;  
   background: #011c4d;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
   color: #ffffff;
 }
 
 .lightergrey {
-  width: 100px;
-  height: 100px;  
   background: #b4b3b3;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
 }
 
-.lightgrey {
-  width: 100px;
-  height: 100px;  
+.lightgrey {  
   background: #808080;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
 }
 
 .grey {
-  width: 100px;
-  height: 100px;  
   background: #4c4c4c;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
   color: #ffffff;
 }
 
 .darkgrey {
-  width: 100px;
-  height: 100px;  
   background: #2c2c2c;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 10px;
-  float: left;
-  position: relative;
-  text-align: center;
   color: #ffffff;
 }
 
